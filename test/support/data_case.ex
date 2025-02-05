@@ -24,6 +24,7 @@ defmodule RecruitmentTest.DataCase do
       import Ecto.Changeset
       import Ecto.Query
       import RecruitmentTest.DataCase
+      import RecruitmentTest.Factory
     end
   end
 

@@ -8,6 +8,8 @@ defmodule RecruitmentTest.Enterprises.Enterprise do
     field :commercial_name, :string
     field :cnpj, :string
     field :description, :string
+    
+    has_many :employees, RecruitmentTest.Enterprises.Employee
 
     timestamps()
   end
